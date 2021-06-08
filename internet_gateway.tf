@@ -2,7 +2,7 @@ resource "aws_internet_gateway" "myigw" {
   
   depends_on = [
 
-      aws
+      aws_vpc.myvpc
   ]
 }
 
