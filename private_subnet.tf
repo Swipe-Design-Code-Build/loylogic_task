@@ -1,4 +1,4 @@
-resource "aws_subnet" "subnet2" {
+resource "aws_subnet" "private_subnet" {
   depends_on = [
     aws_vpc.custom,
     aws_subnet.subnet1
