@@ -13,6 +13,9 @@ resource "aws_route_table" "public_subnet_rt" {
            gateway_id = aws_internet_gateway.myigw.id
        }
 
-       tags = 
+       tags = {
+
+           Name = ""
+       }
   
 }
