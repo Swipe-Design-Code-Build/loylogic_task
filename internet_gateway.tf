@@ -7,6 +7,7 @@ resource "aws_internet_gateway" "myigw" {
       aws_subnet.private_subnet
   ]
 
-  vpc_id = aws
+  vpc_id = aws_vpc.myvpc.id
+  
 }
 
