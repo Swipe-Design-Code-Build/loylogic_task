@@ -4,7 +4,8 @@ resource "aws_route_table" "public_subnet_rt" {
 
         aws_vpc.myvpc,
         aws_internet_gateway.myigw
-        
-    ]
+]
+
+       
   
 }
