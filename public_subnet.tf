@@ -6,5 +6,6 @@ resource "aws_subnet" "public_subnet"{
     vpc_id = aws_vpc.myvpc.vpc_id
 
     cidr_block = "172.20.10.0/24"
-    
+
+    enable_dns_hostnames
 }
