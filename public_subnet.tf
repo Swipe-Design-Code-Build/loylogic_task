@@ -7,5 +7,7 @@ resource "aws_subnet" "public_subnet"{
 
     cidr_block = "172.20.10.0/24"
 
-     availability_zone = ""
+     availability_zone = "us-east-1"
+
+     map
 }
