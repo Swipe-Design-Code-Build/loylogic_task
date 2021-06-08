@@ -1,1 +1,3 @@
-resource "aws_vpc" "myvpc"
+resource "aws_vpc" "myvpc" {
+    cidr_block
+}
