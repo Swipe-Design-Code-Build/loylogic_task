@@ -1,4 +1,4 @@
-resource " "name" {
+resource "aw" "name" {
   
 }
 
