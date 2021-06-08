@@ -8,7 +8,7 @@ resource "aws_subnet" "private_subnet" {
   vpc_id = aws_vpc.myvpc.id
   
   # IP Range of this subnet
-  cidr_block = " "
+  cidr_block = "172.20"
   
   # Data Center of this subnet.
   availability_zone = "ap-south-1b"
