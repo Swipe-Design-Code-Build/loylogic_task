@@ -1,3 +1,3 @@
-resource "type" "name" {
+resource "aws_route_table" "name" {
   
 }
