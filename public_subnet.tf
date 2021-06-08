@@ -7,5 +7,5 @@ resource "aws_subnet" "public_subnet"{
 
     cidr_block = "172.20.10.0/24"
 
-    a
+     availability_zone = ""
 }
