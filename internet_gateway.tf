@@ -4,7 +4,8 @@ resource "aws_internet_gateway" "myigw" {
 
       aws_vpc.myvpc,
       aws_subnet.public_subnet,
-      aws
+      aws_subnet.private_subnet
   ]
+  
 }
 
