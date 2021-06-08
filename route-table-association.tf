@@ -4,7 +4,7 @@ resource "aws_route_table_association" "RT-IG-Association" {
     aws_vpc.myvpc,
     aws_subnet.public_subnet,
     aws_subnet.private_subnet,
-    aws_route_table.Public-Subnet-RT
+    aws_route_table.
   ]
 
 # Public Subnet ID
