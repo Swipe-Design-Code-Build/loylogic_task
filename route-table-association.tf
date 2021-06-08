@@ -1,7 +1,7 @@
 resource "aws_route_table_association" "RT-IG-Association" {
 
   depends_on = [
-    aws_vpc.custom,
+    aws_vpc.myvpc,
     aws_subnet.subnet1,
     aws_subnet.subnet2,
     aws_route_table.Public-Subnet-RT
