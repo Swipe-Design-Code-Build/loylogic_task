@@ -15,7 +15,7 @@ resource "aws_route_table" "public_subnet_rt" {
 
        tags = {
 
-           Name = "public_subnet_rt"
+           Name = "route table for internet gateway"
        }
   
 }
