@@ -11,7 +11,7 @@ resource "aws_subnet" "private_subnet" {
   cidr_block = "172.20.20.0/24"
   
   # Data Center of this subnet.
-  availability_zone = "ap-south-1b"
+  availability_zone = "us-east"
   
   tags = {
     Name = "Private Subnet"
