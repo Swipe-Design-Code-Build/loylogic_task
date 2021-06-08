@@ -3,5 +3,5 @@ resource "aws_subnet" "public_subnet"{
         aws_vpc.myvpc
     ]
 
-    vpc_id = aws_vpc.myvpc
+    vpc_id = aws_vpc.myvpc.vpc_id
 }
