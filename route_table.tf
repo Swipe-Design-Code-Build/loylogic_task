@@ -6,6 +6,6 @@ resource "aws_route_table" "public_subnet_rt" {
         aws_internet_gateway.myigw
 ]
 
-       
+       vpc_id = aws_vpc
   
 }
