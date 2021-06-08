@@ -1,4 +1,4 @@
-resource "aw" "name" {
+resource "aws_internet_gateway" "mu" {
   
 }
 
