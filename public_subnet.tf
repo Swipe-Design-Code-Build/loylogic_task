@@ -1,7 +1,6 @@
 resource "aws_subnet" "public_subnet"{
     depends_on = [
-        aws_vpc.myvpc,
-        aws_subnet.public_subnet
+        aws_vpc.myvpc
     ]
     vpc_id = aws_vpc.myvpc.vpc_id
     cidr_block = "172.20.10.0/24"
