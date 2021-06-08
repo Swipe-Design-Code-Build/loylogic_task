@@ -10,7 +10,7 @@ resource "aws_route_table" "public_subnet_rt" {
 
        route {
            cidr_block = "0.0.0.0/0"
-           ga
+           aws_internet_gateway
        }
   
 }
