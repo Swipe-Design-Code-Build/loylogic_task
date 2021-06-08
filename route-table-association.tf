@@ -11,5 +11,5 @@ resource "aws_route_table_association" "RT-IG-Association" {
   subnet_id      = aws_subnet.public_subnet.id
 
 #  Route Table ID
-  route_table_id = aws_route_table.Public-Subnet-RT.id
+  route_table_id = aws_route_table.public_subnet_rt.id
 }
