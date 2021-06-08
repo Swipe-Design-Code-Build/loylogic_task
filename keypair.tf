@@ -1,1 +1,3 @@
-resource "aws_key_Pair" ""
+resource "aws_key_Pair" "key_pair"{
+    key
+}
