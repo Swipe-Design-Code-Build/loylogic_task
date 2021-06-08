@@ -1,1 +1,1 @@
-resource "aws_"
+resource "aws_key_Pair" ""
