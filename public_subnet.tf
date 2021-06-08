@@ -9,5 +9,5 @@ resource "aws_subnet" "public_subnet"{
 
      availability_zone = "us-east-1"
 
-     map
+     map_public_ip_on_launch = 
 }
