@@ -5,10 +5,10 @@ resource "aws_subnet" "private_subnet" {
   ]
   
   # VPC in which subnet has to be created!
-  vpc_id = aws_vpc.custom.id
+  vpc_id = aws_vpc.myvpc.id
   
   # IP Range of this subnet
-  cidr_block = "192.168.1.0/24"
+  cidr_block = " "
   
   # Data Center of this subnet.
   availability_zone = "ap-south-1b"
